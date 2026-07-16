@@ -1,0 +1,16 @@
+# Build artifacts
+*.o
+ashc
+ashvm
+
+# Compiled benchmark binaries (keep the .cpp sources, ignore the built outputs)
+benchmarks/fib_cpp
+benchmarks/loop_cpp
+benchmarks/countdown_cpp
+benchmarks/hashmap_cpp
+benchmarks/native_jit
+
+# OS / editor cruft
+.DS_Store
+*.swp
+*~
